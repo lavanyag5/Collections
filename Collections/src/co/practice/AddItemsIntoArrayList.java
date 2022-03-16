@@ -1,3 +1,7 @@
+/*
+ * Adding elements into ArrayList
+ */
+
 package co.practice;
 
 import java.util.ArrayList;
@@ -6,7 +10,7 @@ public class AddItemsIntoArrayList {
 
 	public static void main(String[] args) {
 
-		// Creating Arraylist
+		// Creating ArrayList
 		ArrayList<String> list = new ArrayList<>();
 
 		// Adding elements into ArrayList i.e list
@@ -18,3 +22,7 @@ public class AddItemsIntoArrayList {
 		System.out.println(list);
 	}
 }
+
+//OUTPUT
+// input -> item1,item2,item3 
+// output -> [item1, item2, item3]
